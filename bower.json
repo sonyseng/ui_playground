@@ -1,0 +1,21 @@
+{
+  "name": "ui_playground",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sonyseng/ui_playground",
+  "authors": [
+    "Sony Seng <sonyseng@gmail.com>"
+  ],
+  "description": "UI Playground",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.11"
+  }
+}
