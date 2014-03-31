@@ -16,7 +16,8 @@ module.exports = function(grunt) {
 			destPrefix: 'resources/public/js/vendor'
 		},
 		files: {
-  			'requirejs/require.js': 'requirejs/require.js'
+  			'requirejs/require.js': 'requirejs/require.js',
+  			'q/q.js': 'q/q.js'
 		}
 	}
     }
