@@ -20,8 +20,5 @@ require(['jquery', 'Q'],
 			return deferred.promise;
 		}
 		
-		function getData() {
-			var promise = Q($.get("/a"));
-		
 		getData().then(function (data) { console.log("Getting Data", data); }, function (data) { console.log("Error", data); });
 });
