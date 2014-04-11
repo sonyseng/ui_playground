@@ -17,6 +17,7 @@ module.exports = function(grunt) {
 		},
 		files: {
   			'requirejs/require.js': 'requirejs/require.js',
+  			'jquery/jquery.js': 'jquery/dist/jquery.js',
   			'q/q.js': 'q/q.js'
 		}
 	}
