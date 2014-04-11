@@ -8,14 +8,14 @@
 
 (defroutes main-routes
   (GET "/" [] (resp/file-response "index.html" {:root "public"}))
-  (GET "/a" [] (resource :available-media-types ["application/json"]
-                            :handle-ok "{\"data\": \"here is A!\"}"))
-  (GET "/b" [] (resource :available-media-types ["application/json"]
-                            :handle-ok "{\"data\": \"here is b\"}"))
-  (GET "/c" [] (resource :available-media-types ["application/json"]
-                            :handle-ok "{\"data\": \"here is c\"}"))
-  (GET "/d" [] (resource :available-media-types ["application/json"]
-                            :handle-ok "{\"data\": \"here is d\"}"))
+  (GET "/1" [] (resource :available-media-types ["application/json"]
+                            :handle-ok "{\"data\": 1}"))
+  (GET "/2" [] (resource :available-media-types ["application/json"]
+                            :handle-ok "{\"data\": 2}"))
+  (GET "/3" [] (resource :available-media-types ["application/json"]
+                            :handle-ok "{\"data\": 3}"))
+  (GET "/4" [] (resource :available-media-types ["application/json"]
+                            :handle-ok "{\"data\": 4}"))
   (route/resources "/")
   (route/not-found "404 Not Found"))
 
